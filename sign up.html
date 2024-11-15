@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Sora:wght@300;700&display=swap">
+    <link rel="stylesheet" href="sign up.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>SIGN UP</h1>
+        </div>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="user-details">
+                <div class="inputbox">
+                    <label for="name">Username:</label>
+                    <input type="text" id="name" name="username" minlength="5" maxlength="15" placeholder="Enter your name" required>
+                </div>
+                <div class="inputbox">
+                    <label for="passkey">Password:</label>
+                    <input type="password" id="passkey" name="password" placeholder="Enter your password" required>
+                </div>
+                <div class="inputbox">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="inputbox">
+                    <label for="num">Phone Number:</label>
+                    <input type="tel" id="num" name="phone" placeholder="123-456-7890" required>
+                </div>
+                <div class="gender1">
+                    <label>Gender:</label>
+                    <label for="mr"><input type="radio" id="mr" name="gender" value="Mr"> Mr.</label>
+                    <label for="mrs"><input type="radio" id="mrs" name="gender" value="Mrs"> Mrs.</label>
+                    <label for="ms"><input type="radio" id="ms" name="gender" value="Ms"> Ms.</label>
+                </div>
+                <div class="upload1">
+                    <label for="upload">Upload files:</label>
+                    <input type="file" id="upload" name="file" accept="image/png, image/jpeg">
+                </div>
+                <div class="date1">
+                    <label for="date">Date Of Birth:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="check1">
+                    <label for="check">All files have been uploaded:</label>
+                    <input type="checkbox" id="check" name="uploaded">
+                </div>
+                <div class="button">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="Rooms.html">Rooms</a></li>
+                <li><a href="for booking.html">For Booking</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
+
